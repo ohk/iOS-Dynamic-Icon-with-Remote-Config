@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6AA9F4B27694D050012DD48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AA9F4A27694D050012DD48 /* AppDelegate.swift */; };
+		C6AA9F4D27694D050012DD48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AA9F4C27694D050012DD48 /* SceneDelegate.swift */; };
+		C6AA9F4F27694D050012DD48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AA9F4E27694D050012DD48 /* ViewController.swift */; };
+		C6AA9F5227694D050012DD48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6AA9F5027694D050012DD48 /* Main.storyboard */; };
+		C6AA9F5427694D070012DD48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6AA9F5327694D070012DD48 /* Assets.xcassets */; };
+		C6AA9F5727694D070012DD48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6AA9F5527694D070012DD48 /* LaunchScreen.storyboard */; };
+		C6AA9F64276950FD0012DD48 /* Icon-1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6AA9F61276950FD0012DD48 /* Icon-1@3x.png */; };
+		C6AA9F65276950FD0012DD48 /* Icon-1.png in Resources */ = {isa = PBXBuildFile; fileRef = C6AA9F62276950FD0012DD48 /* Icon-1.png */; };
+		C6AA9F66276950FD0012DD48 /* Icon-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6AA9F63276950FD0012DD48 /* Icon-1@2x.png */; };
+		C6AA9F6B2769512B0012DD48 /* Icon-2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6AA9F682769512A0012DD48 /* Icon-2@3x.png */; };
+		C6AA9F6C2769512B0012DD48 /* Icon-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6AA9F692769512A0012DD48 /* Icon-2@2x.png */; };
+		C6AA9F6D2769512B0012DD48 /* Icon-2.png in Resources */ = {isa = PBXBuildFile; fileRef = C6AA9F6A2769512B0012DD48 /* Icon-2.png */; };
+		D34C01792D923D0757DBECC2 /* Pods_Dynamic_Icon_Remote_Config.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2801CDA658AA035E48392E /* Pods_Dynamic_Icon_Remote_Config.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B2801CDA658AA035E48392E /* Pods_Dynamic_Icon_Remote_Config.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dynamic_Icon_Remote_Config.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5710E8DF0772351D95D0D9B /* Pods-Dynamic Icon Remote Config.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dynamic Icon Remote Config.release.xcconfig"; path = "Target Support Files/Pods-Dynamic Icon Remote Config/Pods-Dynamic Icon Remote Config.release.xcconfig"; sourceTree = "<group>"; };
+		C6AA9F4727694D050012DD48 /* Dynamic Icon Remote Config.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dynamic Icon Remote Config.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6AA9F4A27694D050012DD48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6AA9F4C27694D050012DD48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C6AA9F4E27694D050012DD48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C6AA9F5127694D050012DD48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6AA9F5327694D070012DD48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6AA9F5627694D070012DD48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6AA9F5827694D070012DD48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6AA9F61276950FD0012DD48 /* Icon-1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-1@3x.png"; sourceTree = "<group>"; };
+		C6AA9F62276950FD0012DD48 /* Icon-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-1.png"; sourceTree = "<group>"; };
+		C6AA9F63276950FD0012DD48 /* Icon-1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-1@2x.png"; sourceTree = "<group>"; };
+		C6AA9F682769512A0012DD48 /* Icon-2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-2@3x.png"; sourceTree = "<group>"; };
+		C6AA9F692769512A0012DD48 /* Icon-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-2@2x.png"; sourceTree = "<group>"; };
+		C6AA9F6A2769512B0012DD48 /* Icon-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-2.png"; sourceTree = "<group>"; };
+		CFB968B94298EC80FEFC5813 /* Pods-Dynamic Icon Remote Config.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dynamic Icon Remote Config.debug.xcconfig"; path = "Target Support Files/Pods-Dynamic Icon Remote Config/Pods-Dynamic Icon Remote Config.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6AA9F4427694D050012DD48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D34C01792D923D0757DBECC2 /* Pods_Dynamic_Icon_Remote_Config.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73D29D37AB96EF4017BF42B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B2801CDA658AA035E48392E /* Pods_Dynamic_Icon_Remote_Config.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99A980098F6CD0A6EFFA12D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFB968B94298EC80FEFC5813 /* Pods-Dynamic Icon Remote Config.debug.xcconfig */,
+				B5710E8DF0772351D95D0D9B /* Pods-Dynamic Icon Remote Config.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C6AA9F3E27694D050012DD48 = {
+			isa = PBXGroup;
+			children = (
+				C6AA9F4927694D050012DD48 /* Dynamic Icon Remote Config */,
+				C6AA9F4827694D050012DD48 /* Products */,
+				99A980098F6CD0A6EFFA12D9 /* Pods */,
+				73D29D37AB96EF4017BF42B7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C6AA9F4827694D050012DD48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6AA9F4727694D050012DD48 /* Dynamic Icon Remote Config.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6AA9F4927694D050012DD48 /* Dynamic Icon Remote Config */ = {
+			isa = PBXGroup;
+			children = (
+				C6AA9F5E27694D7B0012DD48 /* Application */,
+				C6AA9F4A27694D050012DD48 /* AppDelegate.swift */,
+				C6AA9F4C27694D050012DD48 /* SceneDelegate.swift */,
+				C6AA9F4E27694D050012DD48 /* ViewController.swift */,
+				C6AA9F5027694D050012DD48 /* Main.storyboard */,
+				C6AA9F5327694D070012DD48 /* Assets.xcassets */,
+				C6AA9F5527694D070012DD48 /* LaunchScreen.storyboard */,
+				C6AA9F5827694D070012DD48 /* Info.plist */,
+			);
+			path = "Dynamic Icon Remote Config";
+			sourceTree = "<group>";
+		};
+		C6AA9F5E27694D7B0012DD48 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				C6AA9F5F27694D830012DD48 /* AlternativeIcons */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		C6AA9F5F27694D830012DD48 /* AlternativeIcons */ = {
+			isa = PBXGroup;
+			children = (
+				C6AA9F67276951150012DD48 /* Icon2 */,
+				C6AA9F60276950B30012DD48 /* Icon1 */,
+			);
+			path = AlternativeIcons;
+			sourceTree = "<group>";
+		};
+		C6AA9F60276950B30012DD48 /* Icon1 */ = {
+			isa = PBXGroup;
+			children = (
+				C6AA9F62276950FD0012DD48 /* Icon-1.png */,
+				C6AA9F63276950FD0012DD48 /* Icon-1@2x.png */,
+				C6AA9F61276950FD0012DD48 /* Icon-1@3x.png */,
+			);
+			path = Icon1;
+			sourceTree = "<group>";
+		};
+		C6AA9F67276951150012DD48 /* Icon2 */ = {
+			isa = PBXGroup;
+			children = (
+				C6AA9F6A2769512B0012DD48 /* Icon-2.png */,
+				C6AA9F692769512A0012DD48 /* Icon-2@2x.png */,
+				C6AA9F682769512A0012DD48 /* Icon-2@3x.png */,
+			);
+			path = Icon2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6AA9F4627694D050012DD48 /* Dynamic Icon Remote Config */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6AA9F5B27694D070012DD48 /* Build configuration list for PBXNativeTarget "Dynamic Icon Remote Config" */;
+			buildPhases = (
+				29F06EEDC37BE313F3151CFC /* [CP] Check Pods Manifest.lock */,
+				C6AA9F4327694D050012DD48 /* Sources */,
+				C6AA9F4427694D050012DD48 /* Frameworks */,
+				C6AA9F4527694D050012DD48 /* Resources */,
+				7D87AAA134DFAD899DDC80D2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dynamic Icon Remote Config";
+			productName = "Dynamic Icon Remote Config";
+			productReference = C6AA9F4727694D050012DD48 /* Dynamic Icon Remote Config.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6AA9F3F27694D050012DD48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					C6AA9F4627694D050012DD48 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = C6AA9F4227694D050012DD48 /* Build configuration list for PBXProject "Dynamic Icon Remote Config" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6AA9F3E27694D050012DD48;
+			productRefGroup = C6AA9F4827694D050012DD48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6AA9F4627694D050012DD48 /* Dynamic Icon Remote Config */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6AA9F4527694D050012DD48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6AA9F5727694D070012DD48 /* LaunchScreen.storyboard in Resources */,
+				C6AA9F5427694D070012DD48 /* Assets.xcassets in Resources */,
+				C6AA9F6C2769512B0012DD48 /* Icon-2@2x.png in Resources */,
+				C6AA9F64276950FD0012DD48 /* Icon-1@3x.png in Resources */,
+				C6AA9F65276950FD0012DD48 /* Icon-1.png in Resources */,
+				C6AA9F5227694D050012DD48 /* Main.storyboard in Resources */,
+				C6AA9F66276950FD0012DD48 /* Icon-1@2x.png in Resources */,
+				C6AA9F6B2769512B0012DD48 /* Icon-2@3x.png in Resources */,
+				C6AA9F6D2769512B0012DD48 /* Icon-2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29F06EEDC37BE313F3151CFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dynamic Icon Remote Config-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D87AAA134DFAD899DDC80D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dynamic Icon Remote Config/Pods-Dynamic Icon Remote Config-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dynamic Icon Remote Config/Pods-Dynamic Icon Remote Config-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dynamic Icon Remote Config/Pods-Dynamic Icon Remote Config-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6AA9F4327694D050012DD48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6AA9F4F27694D050012DD48 /* ViewController.swift in Sources */,
+				C6AA9F4B27694D050012DD48 /* AppDelegate.swift in Sources */,
+				C6AA9F4D27694D050012DD48 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C6AA9F5027694D050012DD48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6AA9F5127694D050012DD48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6AA9F5527694D070012DD48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6AA9F5627694D070012DD48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6AA9F5927694D070012DD48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C6AA9F5A27694D070012DD48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6AA9F5C27694D070012DD48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFB968B94298EC80FEFC5813 /* Pods-Dynamic Icon Remote Config.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JGA4594YWM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dynamic Icon Remote Config/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ohk.Dynamic-Icon-Remote-Config";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6AA9F5D27694D070012DD48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5710E8DF0772351D95D0D9B /* Pods-Dynamic Icon Remote Config.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JGA4594YWM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dynamic Icon Remote Config/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ohk.Dynamic-Icon-Remote-Config";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6AA9F4227694D050012DD48 /* Build configuration list for PBXProject "Dynamic Icon Remote Config" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6AA9F5927694D070012DD48 /* Debug */,
+				C6AA9F5A27694D070012DD48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6AA9F5B27694D070012DD48 /* Build configuration list for PBXNativeTarget "Dynamic Icon Remote Config" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6AA9F5C27694D070012DD48 /* Debug */,
+				C6AA9F5D27694D070012DD48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6AA9F3F27694D050012DD48 /* Project object */;
+}
